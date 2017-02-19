@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-No bootstrap
+# Basic-Portfolio
+HW week 1

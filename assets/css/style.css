@@ -1,0 +1,290 @@
+ /*this is for the nav bar at the top of every page*/
+ /*had to seperate my name and the links to other pages hence h1 and ul into seperate classes*/
+ header {
+     height: 10px;
+     padding: 35px 30px 30px 30px;
+     float: left;
+     border-style: hidden;
+     border-color: #efefef;
+     background-color: white;
+     margin-top: -10px;
+     width: 1210px;
+     margin-left: -5px;
+ }
+ 
+ header h1 {
+     background-color: #4aaaa5;
+     border-color: #cccccc;
+     font-family: 'Georgia', Times, "Times New Roman", serif;
+     text-align: left;
+     color: white;
+     clear: both;
+     box-sizing: border-box;
+     padding-left: 19px;
+     max-width: 218px;
+     margin-top: -33px;
+     margin-left: -10px;
+     height: 69px;
+     margin-bottom: 6px;
+     padding-top: 25px;
+ }
+ 
+ header ul {
+     list-style-type: none;
+     float: right;
+     overflow: hidden;
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     text-align: center;
+     padding: 0;
+     margin-top: -50px;
+     width: 400px;
+     display: flex;
+     text-decoration: none;
+ }
+ /*for the index(hw week1) page this is the about me section*/
+ .paragraph.box {
+     background-color: white;
+     width: 675px;
+     margin-left: 24px;
+     border-style: ridge;
+     height: 534px;
+     margin-bottom: 58px;
+ }
+ 
+ /*controls the social media connect for every page*/
+ #social-media {
+     float: right;
+     color: #4aaaa5;
+     text-align: center;
+     width: 207px;
+     height: 121px;
+     border-style: ridge;
+     border-color: #efefef;
+     background-color: white;
+     margin-top: 40px;
+     margin-right: 233px;
+ }
+ 
+ #linkedin {
+     padding: 10px;
+ }
+ 
+/*contact me container*/
+ .contact.box {
+     background-color: white;
+     border-style: ridge;
+     padding-bottom: 30px;
+     margin: -26px 700px 76px 17px;
+ }
+ 
+ /*each row needed to have some white space between the border and the form for the contact me page*/
+ .row_1 {
+     margin-left: 3px
+ }
+ 
+ .row_2 {
+     margin-left: 3px;
+ }
+ 
+ .row_3 {
+     margin-left: 3px;
+ }
+ 
+ /*my image*/
+ #photo {
+     float: left;
+     margin: 10px 30px 10px 20px;
+ }
+ 
+ /*controls the anchors in the nav bar*/
+ li a {
+     display: block;
+     text-align: center;
+     padding: 8px;
+     text-decoration: none;
+     color: grey;
+ }
+ 
+ body {
+     background-image: url("ep_naturalwhite.png");
+ }
+ 
+ /*controls all my h2 headings*/
+ h2 {
+     margin-bottom: -6px;
+     font-family: 'Georgia', Times, "Times New Roman", serif;
+     color: #4aaaa5;
+     margin-left: 21px;
+ }
+ 
+ /*allowed me to space the Contact me heading farther away from the left side of the container*/
+ h2#contact {
+     margin-left: 20px;
+ }
+ 
+ /*controls paragraph one on index(hw week1)*/
+ #one {
+     width: 600px;
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     text-align: left;
+     margin-left: -50px;
+     height: 212px;
+ }
+ 
+ /*controls paragraph 2*/
+ #two {
+     width: 600px;
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     text-align: left;
+     margin-left: 33px;
+ }
+ 
+ #submit_button {
+     background-color: #4aaaa5;
+     color: white;
+     padding: 10px;
+ }
+ 
+ /*container for portfolio page with the sub-colummns*/
+ .container.portfolio {
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     background-color: white;
+     height: 731px;
+     margin: 10px 20px 20px 20px;
+     position: relative;
+     width: 535px;
+     overflow: hidden;
+ }
+ 
+ /*container*/
+ .hangman {
+     position: absolute;
+     text-align: center;
+ }
+ 
+ /*image*/
+ #hangman {
+     width: 200px;
+     height: 150px;
+     margin-left: 27px;
+ }
+ /*paragraph*/
+ #hangmanp {
+     position: absolute;
+     text-align: center;
+     margin-top: -49px;
+     color: white;
+     font-size: 20px;
+     margin-left: 27px;
+     background-color: #4aaaa5;
+     padding: 5px;
+     width: 189px;
+ }
+ 
+ .RPG {
+     float: right;
+ }
+ 
+ #RPGgame {
+     position: absolute;
+     text-align: center;
+     margin: 109px;
+     background-color: #4aaaa5;
+     padding: 5px;
+     margin-left: 1px;
+     width: 200px;
+     z-index: 1;
+     color: white;
+     font-size: 20px;
+ }
+ 
+ #RPGgamei {
+     position: relative;
+     margin-right: 50px;
+     width: 210px;
+     height: 156px;
+ }
+ 
+ .Trivia {
+     position: absolute;
+     margin-top: 164px;
+     margin-left: 25px;
+     z-index: 1;
+ }
+ 
+ #Triviap {
+     position: absolute;
+     z-index: 2;
+     background-color: #4aaaa5;
+     color: white;
+     padding: 5px;
+     font-size: 20px;
+     width: 187px;
+     text-align: center;
+     margin-top: 125px;
+ }
+ 
+ #Triviai {
+     width: 195px;
+ }
+ 
+ .Rutgers {
+     float: right;
+     position: absolute;
+ }
+ 
+ #Rutgersp {
+     position: absolute;
+     text-align: center;
+     background-color: #4aaaa5;
+     padding: 5px;
+     width: 194px;
+     color: white;
+     font-size: 20px;
+     margin-top: 284px;
+     margin-left: 283px;
+ }
+ 
+ #Rutgersi {
+     width: 207px;
+     margin-left: 278px;
+     margin-top: 181px;
+     height: 139px;
+ }
+ 
+ .Rock_Paper_Scissors {
+     position: absolute;
+ }
+ 
+ #RPSp {
+     position: absolute;
+     text-decoration: none;
+     text-align: center;
+     background-color: #4aaaa5;
+     color: white;
+     font-size: 20px;
+     margin-top: 461px;
+     padding: 5px;
+     margin-left: 26px;
+     width: 190px;
+ }
+ 
+ #RPSi {
+     width: 200px;
+     margin-left: 26px;
+     margin-top: 353px;
+     height: 150px;
+ }
+ 
+ footer {
+     background-color: #666666;
+     font-size: 10pt;
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     text-align: center;
+     color: gray;
+     height: 50px;
+     padding-top: 34px;
+     border-top: 5px solid #4aaaa5;
+     bottom: 0px;
+     margin-left: -8px;
+ }
