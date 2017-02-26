@@ -1,15 +1,10 @@
  /*this is for the nav bar at the top of every page*/
  /*had to seperate my name and the links to other pages hence h1 and ul into seperate classes*/
  header {
-     height: 10px;
+     height: 3px;
      padding: 35px 30px 30px 30px;
-     float: left;
-     border-style: hidden;
      border-color: #efefef;
      background-color: white;
-     margin-top: -10px;
-     width: 1210px;
-     margin-left: -5px;
  }
  
  header h1 {
@@ -27,6 +22,7 @@
      height: 69px;
      margin-bottom: 6px;
      padding-top: 25px;
+     font-size: 30px;
  }
  
  header ul {
@@ -44,11 +40,13 @@
  /*for the index(hw week1) page this is the about me section*/
  .paragraph.box {
      background-color: white;
-     width: 675px;
-     margin-left: 24px;
+     width: 650px;
+     margin-left: 18px;
      border-style: ridge;
-     height: 534px;
-     margin-bottom: 58px;
+     height: 488px;
+     margin-bottom: 149px;
+     margin-top: 48px;
+     padding-top: 20px;
  }
  
  /*controls the social media connect for every page*/
@@ -56,13 +54,12 @@
      float: right;
      color: #4aaaa5;
      text-align: center;
-     width: 207px;
-     height: 121px;
-     border-style: ridge;
-     border-color: #efefef;
+     width: 270px;
+     height: 125px;
      background-color: white;
      margin-top: 40px;
-     margin-right: 233px;
+     margin-right: 175px;
+     padding-top: 50px;
  }
  
  #linkedin {
@@ -117,12 +114,12 @@
      margin-left: 21px;
  }
  
- /*allowed me to space the Contact me heading farther away from the left side of the container*/
+ /*allowed me to space the Contact Me heading farther away from the left side of the container*/
  h2#contact {
      margin-left: 20px;
  }
  
- /*controls paragraph one on index(hw week1)*/
+ /*controls paragraph one on index*/
  #one {
      width: 600px;
      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -154,6 +151,7 @@
      position: relative;
      width: 535px;
      overflow: hidden;
+     font-size: 30px;
  }
  
  /*container*/
@@ -282,9 +280,25 @@
      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
      text-align: center;
      color: gray;
-     height: 50px;
-     padding-top: 34px;
      border-top: 5px solid #4aaaa5;
      bottom: 0px;
-     margin-left: -8px;
+     right: 0;
+     left:0;
+     position: absolute;
+     padding: 20px;
  }
+
+
+@media screen and (max-width: 640px) {
+     
+     header { 
+          position: static;
+          width: 100%;
+     }
+}
+
+
+
+
+
+
